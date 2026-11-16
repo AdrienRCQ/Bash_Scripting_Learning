@@ -12,7 +12,3 @@ get_infos(){
     printf 'user home directory : %s\n' "$user_home_directory"
     printf 'working directory : %s\n' "$working_directory"
 }
-
-check_path(){
-    
-}

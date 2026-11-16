@@ -22,13 +22,10 @@ function list_images() {
   echo "Images Docker locales :"
   sudo docker images
 }
-
 function list_dockerfiles() {
   echo "Dockerfiles dans le dossier courant :"
   ls Dockerfile* 2>/dev/null || echo "Aucun Dockerfile trouvé"
 }
-
-
 
 # =====================
 # Parsing des options
